@@ -1,8 +1,4 @@
-- 👋 Hi, I’m @liquidsax
-- 👀 I’m interested in coding shxt
-- 🌱 I’m currently learning java and so on...
-- 💞️ I’m looking to collaborate on wtf ...
-- 📫 How to reach me ,well,u cant of crouse...
+
 · ·oh  cool
 
 <!---
