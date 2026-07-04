@@ -12,7 +12,7 @@
 class PostgradAspirant(Developer):
     def __init__(self):
         # Currently preparing for CS Master's (2026)
-        self.focus = ["Algorithms (408)", "Distributed Logic", "AI/ML"]
+        self.focus = ["Algorithms", "Distributed Logic", "AI/ML"]
         
     def tech_stack(self):
         return {
