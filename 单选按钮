@@ -1,0 +1,25 @@
+import tkinter
+
+def on_button_click():
+    root.destroy()
+    print(r.get())
+
+root = tkinter.Tk()
+r = tkinter.StringVar()
+r.set('1')
+radio = tkinter.Radiobutton(root, variable=r, value='1', text='China')
+radio.pack()
+radio = tkinter.Radiobutton(root, variable=r, value='2', text='USA')
+radio.pack()
+radio = tkinter.Radiobutton(root, variable=r, value='3', text='Ru')
+radio.pack()
+radio = tkinter.Radiobutton(root, variable=r, value='4', text='LOS')
+radio.pack()
+
+button = tkinter.Button(root, text="确定", command=on_button_click)
+button.pack()
+
+root.mainloop()
+
+
+#这段代码使用了Python的Tkinter库来创建一个简单的图形用户界面。它创建了一个窗口，其中包含4个单选按钮，分别表示“China”、“USA”、“Ru”和“LOS”。用户可以在这些选项中选择一个，最后程序会打印出用户选择的值。您想了解更多关于这段代码的信息吗？
